@@ -1,6 +1,6 @@
 {
   "name": "mock-cognito",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Fastify plugin to mock AWS Cognito for testing",
   "main": "index.js",
   "dependencies": {
@@ -27,9 +27,7 @@
     "type": "git",
     "url": "git+https://github.com/emilbayes/mock-cognito.git"
   },
-  "keywords": [
-
-  ],
+  "keywords": [],
   "author": "Emil Bay <github@tixz.dk>",
   "license": "ISC",
   "bugs": {
