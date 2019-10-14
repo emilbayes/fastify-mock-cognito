@@ -1,0 +1,39 @@
+{
+  "name": "mock-cognito",
+  "version": "0.0.0",
+  "description": "Fastify plugin to mock AWS Cognito for testing",
+  "main": "index.js",
+  "dependencies": {
+    "fastify-plugin": "^1.5.0",
+    "jsonwebtoken": "^8.5.1",
+    "jwk-to-pem": "^2.0.1",
+    "uuid": "^3.3.3"
+  },
+  "devDependencies": {
+    "fastify": "^2.0.0",
+    "standard": "^14.3.1",
+    "tap": "^14.6.9"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "pretest": "standard",
+    "test": "tap --cov -R classic test/**/*.test.js",
+    "start": "fastify start -l info app.js",
+    "dev": "fastify start -l info -P app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emilbayes/mock-cognito.git"
+  },
+  "keywords": [
+
+  ],
+  "author": "Emil Bay <github@tixz.dk>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emilbayes/mock-cognito/issues"
+  },
+  "homepage": "https://github.com/emilbayes/mock-cognito#readme"
+}
