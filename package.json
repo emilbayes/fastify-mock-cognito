@@ -1,5 +1,5 @@
 {
-  "name": "mock-cognito",
+  "name": "fastify-mock-cognito",
   "version": "1.0.0",
   "description": "Fastify plugin to mock AWS Cognito for testing",
   "main": "index.js",

@@ -1,6 +1,6 @@
 # `fastify-mock-cognito`
 
-[![Build Status](https://travis-ci.org/emilbayes/mock-cognito.svg?branch=master)](https://travis-ci.org/emilbayes/mock-cognito)
+[![Build Status](https://travis-ci.org/emilbayes/fastify-mock-cognito.svg?branch=master)](https://travis-ci.org/emilbayes/fastify-mock-cognito)
 
 > Fastify plugin to mock AWS Cognito for testing
 
